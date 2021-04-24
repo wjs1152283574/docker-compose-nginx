@@ -1,0 +1,47 @@
+2021/04/24 06:18:38 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:18:42 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:18:46 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:18:50 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:18:54 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:18:59 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:19:05 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:19:14 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:19:30 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:19:59 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:20:53 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:21:56 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:22:59 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:18
+2021/04/24 06:23:42 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:23:46 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:23:50 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:23:55 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:23:59 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:24:04 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:24:10 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:24:19 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:24:35 [emerg] 1#1: no "events" section in configuration
+2021/04/24 06:36:47 [error] 22#22: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:38:08 [error] 22#22: *4 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:38:08 [error] 22#22: *3 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2021/04/24 06:38:42 [error] 22#22: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:38:44 [error] 22#22: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:39:56 [emerg] 1#1: invalid number of arguments in "root" directive in /etc/nginx/nginx.conf:18
+2021/04/24 06:40:00 [emerg] 1#1: invalid number of arguments in "root" directive in /etc/nginx/nginx.conf:18
+2021/04/24 06:40:04 [emerg] 1#1: invalid number of arguments in "root" directive in /etc/nginx/nginx.conf:18
+2021/04/24 06:41:21 [error] 22#22: *1 open() "/usr/share/nginx/html/dist/admin" failed (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:42:01 [error] 22#22: *1 open() "/usr/share/nginx/html/dist/admin" failed (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:42:13 [error] 22#22: *1 open() "/usr/share/nginx/html/dist/admin" failed (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:45:06 [error] 22#22: *1 open() "/dist/index.html" failed (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin/index.html HTTP/1.1", host: "localhost:8000"
+2021/04/24 06:47:46 [error] 22#22: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: _, request: "GET /v1/capchat HTTP/1.1", upstream: "http://127.0.0.1:9000/v1/capchat", host: "127.0.0.1:8000"
+2021/04/24 07:18:12 [error] 23#23: *1 open() "/usr/share/nginx/html/dist/admin" failed (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin HTTP/1.1", host: "127.0.0.1:8000"
+2021/04/24 07:24:40 [error] 23#23: *2 "/usr/share/nginx/html/dist/admin/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:25:30 [error] 23#23: *1 "/usr/share/nginx/html/dist/admin/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:28:27 [error] 22#22: *1 directory index of "/usr/share/nginx/html" is forbidden, client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:29:30 [error] 22#22: *1 directory index of "/usr/share/nginx/html/admin" is forbidden, client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:29:31 [error] 22#22: *1 directory index of "/usr/share/nginx/html/admin" is forbidden, client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:29:32 [error] 22#22: *1 directory index of "/usr/share/nginx/html/admin" is forbidden, client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:30:25 [error] 23#23: *1 directory index of "/usr/share/nginx/html/admin" is forbidden, client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:30:26 [error] 23#23: *1 directory index of "/usr/share/nginx/html/admin" is forbidden, client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:32:42 [error] 22#22: *1 "/adminindex.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:33:09 [error] 22#22: *1 "/admin/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
+2021/04/24 07:33:11 [error] 22#22: *1 "/admin/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /admin/ HTTP/1.1", host: "127.0.0.1:8090"
