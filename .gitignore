@@ -1,2 +1,4 @@
 /html/dist/static
 /html/admin/static
+/logs/access.log
+/logs/error.log

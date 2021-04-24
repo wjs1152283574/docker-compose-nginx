@@ -5,7 +5,7 @@ services:
     image: nginx
     restart: always
     ports:
-      - 80:80
+      - 8090:80
     privileged: true
     volumes:
       - ./conf/proxy.conf:/etc/nginx/proxy.conf
